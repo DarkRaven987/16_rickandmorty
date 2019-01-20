@@ -3,7 +3,7 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	height: 70vh
+	height: auto
 }
 .Header_Title{
 	text-transform: uppercase;
