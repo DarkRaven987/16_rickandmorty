@@ -3,7 +3,7 @@ import React from 'react';
 function CharList(){
 	return(
 		<div>
-			CharList heh
+			CharList
 		</div>	
 	);
 }
