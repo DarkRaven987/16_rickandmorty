@@ -1,18 +1,18 @@
 import React, {Component} from 'react';
 import './style.css';
 
-function Header(){
+function Header(props){
 	return(
 		<section className="Header">
 			<h1 className="Header_Title">
-				the rick and morty api
+				{props.title}
 			</h1>
 			<div className="Header_Subtitle">
 				<h2 className="HomeSubtitle">
-					hey, did you ever want to hold a terry fold?
+					{props.homeSubtitle}
 				</h2>
 				<h2 className="HomeMiddleSubtitle">
-					i got one right here, grab my terry flap     
+					{props.middleSubtitle}
 				</h2>
 			</div>
 		</section>	

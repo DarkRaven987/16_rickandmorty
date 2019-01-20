@@ -9,7 +9,11 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <Header/>
+        <Header
+			title = "the rick and morty api"
+			homeSubtitle="hey, did you ever want to hold a terry fold?"
+			middleSubtitle="i got one right here, grab my terry flap!"
+		/>
 		<CharList/>
       </Fragment>
     );

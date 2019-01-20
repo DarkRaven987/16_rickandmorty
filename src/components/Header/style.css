@@ -10,7 +10,7 @@
     line-height: 0.75em;
     color: rgb(32, 35, 41);
     font-size: 3.75rem;
-    margin: 0px;
+    margin: 10px;
 }
 .Header_Subtitle{
 	transform: skew(-2deg) translateY(-6px);
