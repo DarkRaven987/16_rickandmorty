@@ -1,20 +1,21 @@
 import React, {Component} from 'react';
+import './style.css';
 
 function Header(){
 	return(
-		<div>
-			<h1>
-				THE RICK AND MORTY API
+		<section className="Header">
+			<h1 className="Header_Title">
+				the rick and morty api
 			</h1>
-			<div>
-			<h2>
-				HEY, DID YOU EVERE WANT TO HOLD A TERRY FOLD?
-			</h2>
-			<h2>
-				I GOT ONE RIGHT HERE, GRAB MY TERRY FLAP     
-			</h2>
+			<div className="Header_Subtitle">
+				<h2 className="HomeSubtitle">
+					hey, did you ever want to hold a terry fold?
+				</h2>
+				<h2 className="HomeMiddleSubtitle">
+					i got one right here, grab my terry flap     
+				</h2>
 			</div>
-		</div>	
+		</section>	
 	);
 }
 
