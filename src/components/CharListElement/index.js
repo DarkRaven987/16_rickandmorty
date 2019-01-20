@@ -13,7 +13,7 @@ function CharListElement(props) {
 			</div>
 			<div className="CharacterCard__Title">
 				<h2 className="CharacterCard__Name">{name}</h2>
-				<p className="CharacterCard__Description">id: {id} - created a year ago</p>
+				<p className="CharacterCard__Description">id: {id}</p>
 			</div>
 		</div>
 		<div data="card info" className="CharacterCard__InfoWrapper">
@@ -36,6 +36,9 @@ function CharListElement(props) {
 			<div className="CharacterCard__TextWrapper">
 				<span>LAST LOCATION</span>
 				<p>{location.name}</p>	
+			</div>
+			<div className="CharacterCard__TextWrapper">
+				<a href={`/character/${id}`}>Show more</a>
 			</div>
 		</div>
 	</article>
