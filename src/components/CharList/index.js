@@ -27,11 +27,11 @@ class CharList extends React.Component{
 	render(){
 		console.log("render");
 		return(
-			<div className="Home__ShowcaseWrapper">
-				<div className="Home__ShowcaseInner">
-					{this.createHeroElement()}
-				</div>
-			</div>	
+				<section className="Home__ShowcaseWrapper">
+					<div className="Home__ShowcaseInner">
+						{this.createHeroElement()}
+					</div>
+				</section>	
 		);
 	
 	}	

@@ -38,7 +38,7 @@ function CharListElement(props) {
 				<p>{location.name}</p>	
 			</div>
 			<div className="CharacterCard__TextWrapper">
-				<a href={`/character/${id}`}>Show more</a>
+				<a href={`/character/${id}`}>Show more...</a>
 			</div>
 		</div>
 	</article>
